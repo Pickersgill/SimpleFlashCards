@@ -53,7 +53,7 @@ def ask_deck(deck):
     os.system("clear")
     print("LOADED DECK:\n\n " + deck.title)
     print("\nPRESS ANY KEY TO BEGIN")
-    num_of_cards = int(input("How many cards?")) if not all_cards else len(deck)
+    num_of_cards = len(deck)
     cards = deck.get_cards(num_of_cards)
     input()
     
@@ -108,7 +108,6 @@ if __name__ == "__main__":
         print("File names not given")
 
     hint = "hint" in sys.argv
-    all_cards = "all" in sys.argv
     
     os.system("clear")   
  
