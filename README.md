@@ -1,11 +1,11 @@
 # SimpleFlashCards
 Simple program for doing flash cards.
 
-##Arguments:
+## Arguments:
 
 hint : answers are accepted in multiple choice format
 
-##Running:
+## Running:
 
 run using ```python3 flash.py filename1.deck filename2.deck ```
 
@@ -20,7 +20,7 @@ Each card is of the form:
 ```
 <<
 text for front of card
-\---
+---
 text for back of card
 >>
 
